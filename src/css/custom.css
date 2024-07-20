@@ -5,26 +5,59 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+/* Font */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Assistant', sans-serif;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+body {
+  font-family: 'Assistant', sans-serif;
+}
+
+
+/* Light Mode */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #004EFF;
+  --ifm-color-primary-dark: #003ECF;
+  --ifm-color-primary-darker: #0033B3;
+  --ifm-color-primary-darkest: #002A99;
+  --ifm-color-primary-light: #3366FF; 
+  --ifm-color-primary-lighter: #6689FF; 
+  --ifm-color-primary-lightest: #99ADFF; 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #6689FF; 
+  --ifm-color-primary-dark: #3366FF; 
+  --ifm-color-primary-darker: #004EFF;
+  --ifm-color-primary-darkest: #003ECF; 
+  --ifm-color-primary-light: #99ADFF; 
+  --ifm-color-primary-lighter: #BBD2FF; 
+  --ifm-color-primary-lightest: #DDE6FF; 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
